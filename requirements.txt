@@ -1,0 +1,24 @@
+# AI Influencer Studio - base dependencies
+# Recommended runtime: CPython 3.11.x on Windows 10/11 (64-bit)
+# Install with: python -m pip install -r requirements.txt
+
+# Web application
+streamlit>=1.40,<2.0
+
+# Image and numerical processing
+numpy>=1.26,<2.0
+Pillow>=10.4,<12.0
+opencv-python-headless>=4.10,<4.12
+
+# Video frame I/O and bundled FFmpeg executable helper
+imageio>=2.34,<3.0
+imageio-ffmpeg>=0.5,<1.0
+
+# Lightweight system resource monitoring
+psutil>=5.9,<8.0
+
+# Offline Windows text-to-speech (uses installed Windows voices)
+pyttsx3>=2.90,<3.0
+
+# Audio file reading/writing
+soundfile>=0.12,<1.0
